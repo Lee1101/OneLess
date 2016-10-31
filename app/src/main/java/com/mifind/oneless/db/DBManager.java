@@ -4,7 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.mifind.gankio.GankApp;
+import com.mifind.oneless.OneLessApp;
 
 /**
  * Created by Xuanjiawei on 2016/8/9.
@@ -14,7 +14,7 @@ public class DBManager {
     private DBHelper dbHelper;
 
     public DBManager(){
-        dbHelper = new DBHelper(GankApp.getContext());
+        dbHelper = new DBHelper(OneLessApp.getAppContext());
     }
 
     /**
