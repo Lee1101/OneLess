@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">OneLess</string>
+    <string name="app_name">一个</string>我 的 文 艺 生 活
+    <string name="app_splash_content">我 的 文 艺 生 活</string>
+    <string name="app_splash_version">O N E %1$s</string>
 </resources>
